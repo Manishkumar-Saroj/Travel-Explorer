@@ -117,10 +117,20 @@ video{
     border: none;
 }
 
+.btn-1:hover{
+    color: black;
+    background-color: #ffdb99;
+}
+
 .btn-2{
     color: white;
     border: 2px solid #56ff9a;
     background-color: transparent;
+}
+
+.btn-2:hover{
+    color: black;
+    background-color: #ffdb97;
 }
 
 .carousel-item{
