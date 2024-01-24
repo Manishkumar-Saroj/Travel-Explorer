@@ -62,15 +62,6 @@ video{
     z-index: -2;
 }
 
-.drop-shadow{
-    height: 100vh;
-    width: 100vw;
-    background-color: #00000048;
-    top: 0;
-    position: fixed;
-    z-index: -1;
-}
-
 
 #page1{
     height: 100vh;
@@ -148,7 +139,9 @@ video{
     color: #ffdb99 !important;
 }
 
-#destination,#features{
+
+
+.shadow{
     background-color: rgba(0, 0, 0, 0.745);
 }
 
@@ -164,10 +157,9 @@ video{
     transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease; /* Adjust the duration and easing as needed */
 }
 
-#features{
+/* #features{
     margin-top: -17px;
-    /* background-color: black; */
-}
+} */
 
 #features *{
     color: white;
@@ -183,7 +175,7 @@ video{
 }
 
 #footer{
-    margin-top: -30px;
+    /* margin-top: -30px; */
     background-color: #000c2397;
 }
 
